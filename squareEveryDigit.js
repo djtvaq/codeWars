@@ -18,7 +18,7 @@ function squareDigits(num){
 
   console.log(squareArray)
   
-  let squareArrayString = squareArray.join()
+  let squareArrayString = squareArray.join('')
   
   return parseInt(squareArrayString)
 }
